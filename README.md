@@ -48,4 +48,5 @@ Buon lavoro!!!
 
 - Idea presa da [qui](https://www.youtube.com/watch?v=iWbB0WPn6rM)
 - copia del mio test (da unzippare in una pen drive)
+- Blog post su [Pigrecoinfinito](https://pigrecoinfinito.wordpress.com/2019/02/26/creare-una-versione-portable-di-qgis-2-18-ltr/)
 
