@@ -1,6 +1,6 @@
 # QGIS portable 3.x
 
-Creare una versione Portable di QGIS 3.x usando il file *.exe scaricato dal sito http://download.osgeo.org/qgis/
+Creare una versione **Portable di QGIS 3.x** usando il file `*.exe` scaricato dal sito http://download.osgeo.org/qgis/
 
 ## Perché questo repository
 
@@ -47,6 +47,6 @@ Buon lavoro!!!
 **Riferimenti:**
 
 - Idea presa da [qui](https://www.youtube.com/watch?v=iWbB0WPn6rM)
-- [copia del mio test](https://mega.nz/#!sc40FITK!KhyszFO4kg54PxFzITSqAvX323Vh_K_ej5meEd68Reo) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)
+- [copia del mio test](https://mega.nz/#!sc40FITK!KhyszFO4kg54PxFzITSqAvX323Vh_K_ej5meEd68Reo) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - Blog post su [Pigrecoinfinito](https://pigrecoinfinito.wordpress.com/2019/02/26/creare-una-versione-portable-di-qgis-2-18-ltr/)
 
