@@ -1,3 +1,12 @@
+<!-- TOC -->
+
+- [QGIS portable 3.x](#QGIS-portable-3x)
+  - [Perché questo repository](#Perch%C3%A9-questo-repository)
+  - [Che cosa è una versione Portable](#Che-cosa-%C3%A8-una-versione-Portable)
+  - [step by step metodo manuale](#step-by-step-metodo-manuale)
+  - [step by step usando script Bash](#step-by-step-usando-script-Bash)
+
+<!-- /TOC -->
 # QGIS portable 3.x
 
 Creare una versione **Portable di QGIS 3.x** usando il file `*.exe` scaricato dal sito http://download.osgeo.org/qgis/
@@ -11,7 +20,7 @@ Per tenere traccia di come realizzare una **versione Portable di QGIS 3.x** senz
 Per applicazione portabile (o applicazione portatile; in inglese portable application) si intende un software applicativo che non necessita di installazione all’interno del sistema operativo su cui viene eseguito. Programmi di questo genere possono essere memorizzati su supporto rimovibile come cd-rom o memorie flash. 
 Un’applicazione portabile può indistintamente essere eseguita su qualsiasi computer in cui si dispone di un sistema operativo compatibile con l’applicazione stessa. Il vantaggio per l’utente è quindi quello di poter utilizzare la medesima applicazione su macchine diverse mantenendo le impostazioni personalizzate nell’uso dell’applicazione. Un secondo vantaggio delle applicazioni portabili deriva dal fatto che non richiedendo installazione possono spesso essere eseguite anche in ambienti in cui non si dispone dei diritti di amministrazione sul sistema operativo. [Wikipedia](https://it.wikipedia.org/wiki/Applicazione_portabile).
 
-## step by step
+## step by step metodo manuale
 
 1. Inserire una **pen drive** nel PC, nel mio caso unità `F:`;
 2. Creare la cartella **OSGeo4W**;
@@ -43,6 +52,17 @@ Buon lavoro!!!
 
 <p align="center"> <a href="" target="_blank"><img src="./imgs/animazione.gif" width="700" title="avvio QGIS"></a>
 </p>
+
+## step by step usando script Bash
+
+1. creare una cartella sul desktop `zanzibar`(oppure dove preferite);
+2. scaricare il file [script.sh](./script.sh) all'interno della cartella `zanzibar` creata al punto 1;
+3. avviare Bash e digitare `chmod x ./script.sh` per i permessi e poi `./script.sh`;
+4. dopo circa **30 minuti** otterrete una cartella zippata `OSGeo4W_349` con la versione portable di QGIS.
+
+**PS:** nello script scarico la `QGIS-OSGeo4W-3.4.9-1-Setup-x86_64.exe` e i file `msvcp100.dll` `msvcr100.dll` versione a 64 bit!!!
+
+---
 
 **Riferimenti:**
 
