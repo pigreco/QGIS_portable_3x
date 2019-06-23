@@ -5,6 +5,7 @@
   - [Che cosa è una versione Portable](#Che-cosa-%C3%A8-una-versione-Portable)
   - [step by step metodo manuale](#step-by-step-metodo-manuale)
   - [step by step usando script Bash](#step-by-step-usando-script-Bash)
+  - [Connessione al Web e i Plugin](#Connessione-al-Web-e-i-Plugin)
 
 <!-- /TOC -->
 # QGIS portable 3.x
@@ -57,10 +58,18 @@ Buon lavoro!!!
 
 1. creare una cartella sul desktop `zanzibar`(oppure dove preferite);
 2. scaricare il file [script.sh](./script.sh) all'interno della cartella `zanzibar` creata al punto 1;
-3. avviare Bash e digitare `chmod x ./script.sh` per i permessi e poi `./script.sh`;
+3. avviare `Bash` e digitare `chmod +x ./script.sh` per i permessi e poi `./script.sh`;
 4. dopo circa **30 minuti** otterrete una cartella zippata `OSGeo4W_349` con la versione portable di QGIS.
+5. unzippate la cartella `OSGeo4W_349.7z` dove desiderate e avvire il file `qgis-ltr.bat` che trovate in `/OSGeo4W/bin`.
 
 **PS:** nello script scarico la `QGIS-OSGeo4W-3.4.9-1-Setup-x86_64.exe` e i file `msvcp100.dll` `msvcr100.dll` versione a 64 bit!!!
+
+---
+## Connessione al Web e i Plugin
+
+Ho fatto dei test, la **portable** si connette alla rete senza problemi.
+
+Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una cartella **QGIS** nel percorso relativo al profilo utente `C:\Users\nomeUtente\AppData\Roaming\QGIS\QGIS3\profiles\default`
 
 ---
 

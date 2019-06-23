@@ -4,9 +4,9 @@ set -x
 # variabile con nome versione
 versione=QGIS-OSGeo4W-3.8.0-1-Setup-x86_64
 # scarico il file eseguibile
-curl http://download.osgeo.org/qgis/win64/"${versione}".exe >"${versione}".exe
+curl http://download.osgeo.org/qgis/win64/"$versione".exe >"$versione".exe
 # unzippo il file eseguibile
-7z x "${versione}".exe
+7z x "$versione".exe
 # rinomino la cartella
 mv '$_25_' OSGeo4W
 # sposto la cartella

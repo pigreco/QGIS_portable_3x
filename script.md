@@ -18,9 +18,9 @@ set -x
 # variabile con nome versione
 versione=QGIS-OSGeo4W-3.4.9-1-Setup-x86_64
 # scarico il file eseguibile
-curl http://download.osgeo.org/qgis/win64/"${versione}".exe >"${versione}".exe
+curl http://download.osgeo.org/qgis/win64/"$versione".exe >"$versione".exe
 # unzippo il file eseguibile
-7z x "${versione}".exe
+7z x "$versione".exe
 # rinomino la cartella
 mv '$_25_' OSGeo4W
 # sposto la cartella
@@ -42,7 +42,15 @@ curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/win64
 # rimuovo cartella zippata
 rm win64.zip
 # cambio cartella
-cd ../../../../
 # creo unica cartella zippata, adeguare i numeri finali
+# non eseguire questo passo se volete avviare QGIS da questa posizione
+cd ../../../../
 7z a OSGeo4W_349.7z OSGeo4W
 ```
+
+**gif animata:**
+
+Ho creato una cartella sul desktop **qgis38** e ho copiato all'interno lo script; digito `bash` e poi `chmod +x ./script.sh` per i permessi; poi lanciare lo script `./script.sh`
+
+<p align="center"> <a href="" target="_blank"><img src="./imgs/bash.gif" width="700" title="avvio QGIS"></a>
+</p>
