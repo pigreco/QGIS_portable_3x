@@ -6,6 +6,7 @@
   - [Step by step metodo manuale](#Step-by-step-metodo-manuale)
   - [Step by step usando script Bash](#Step-by-step-usando-script-Bash)
   - [Connessione al Web e i Plugin](#Connessione-al-Web-e-i-Plugin)
+  - [Portable (7z)](#Portable-7z)
 
 <!-- /TOC -->
 # QGIS portable 3.x
@@ -76,9 +77,13 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 **Riferimenti:**
 
 - Idea presa da [qui](https://www.youtube.com/watch?v=iWbB0WPn6rM)
+
+## Portable (7z)
+
 - [QGIS 3.4.8 LTR Portable](https://mega.nz/#!dQBBzabA!NW76-W72lA7hCwvK9HDukHIWw_A1pOdjXvTdxOeAGLU) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.4.9 LTR Portable](https://mega.nz/#!UYRRFYIY!xljwwxNunudCoGwnvajNHjOuJf35TVYER-TyPx9-5LA) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.8.0 Zanzibar Portable](https://mega.nz/#!xNoUDSKZ!j3yRI0DOGI6AtP_NdqLLsIDSXYX0dbXcaLsoIOcHHFQ) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
+- [QGIS 2.18.28-3 LTR Las Palmas Portable](https://mega.nz/#!dFRCAAwC!x3hx-EazfFCHsWXNrUE4zQbzDp8FIXEQzRcoxMIOz7g) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - Blog post su [Pigrecoinfinito](https://pigrecoinfinito.wordpress.com/2019/02/26/creare-una-versione-portable-di-qgis-2-18-ltr/)
 
 **DISCLAIMER**
