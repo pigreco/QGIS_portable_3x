@@ -8,7 +8,7 @@ per installarlo in linux:
 
 ---
 
-script:
+**script:**
 
 
 ```bash
@@ -31,8 +31,10 @@ cd OSGeo4W/bin
 mv qgis-ltr.bat.tmpl qgis-ltr.bat
 # rinomino file caso non LTR
 # mv qgis.bat.tmpl qgis.bat
-# cambio cartella
+# cambio cartella caso LTR
 cd ../apps/qgis-ltr/bin
+# cambio cartella caso non LTR
+# cd ../apps/qgis/bin
 # scarico cartella zippata
 curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/win64.zip" >win64.zip
 # unzippo cartella
@@ -41,6 +43,6 @@ curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/win64
 rm win64.zip
 # cambio cartella
 cd ../../../../
-# creao unica cartella zippata
+# creao unica cartella zippata, adeguare i numeri finali
 7z a OSGeo4W_349.7z OSGeo4W
 ```
