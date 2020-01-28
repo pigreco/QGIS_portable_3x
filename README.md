@@ -1,12 +1,12 @@
 <!-- TOC -->
 
-- [QGIS portable 3.x](#QGIS-portable-3x)
-  - [Perché questo repository](#Perch%C3%A9-questo-repository)
-  - [Che cosa è una versione Portable](#Che-cosa-%C3%A8-una-versione-Portable)
-  - [Step by step metodo manuale](#Step-by-step-metodo-manuale)
-  - [Step by step usando script Bash](#Step-by-step-usando-script-Bash)
-  - [Connessione al Web e i Plugin](#Connessione-al-Web-e-i-Plugin)
-  - [Portable (7z)](#Portable-7z)
+- [QGIS portable 3.x](#qgis-portable-3x)
+  - [Perché questo repository](#perch%c3%a9-questo-repository)
+  - [Che cosa è una versione Portable](#che-cosa-%c3%a8-una-versione-portable)
+  - [Step by step metodo manuale](#step-by-step-metodo-manuale)
+  - [Step by step usando script Bash](#step-by-step-usando-script-bash)
+  - [Connessione al Web e i Plugin](#connessione-al-web-e-i-plugin)
+  - [Portable (7z)](#portable-7z)
 
 <!-- /TOC -->
 # QGIS portable 3.x
@@ -82,6 +82,7 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 
 ## Portable (7z)
 
+- [QGIS 3.10.2-2 A Coruña Portable](https://mega.nz/#!hFpGgSqY!ortl0wgzflbQ_-HxrhK4uwu-T7tX5iu1FuwiXp0UQEM) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.4.10 LTR Madeira Portable](https://mega.nz/#!IN5VWaJY!nMUkHxy1krLLm9h1LdISTEVAcTRHyQumpPMDF927CpU) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.4.9 LTR Madeira Portable](https://mega.nz/#!UYRRFYIY!xljwwxNunudCoGwnvajNHjOuJf35TVYER-TyPx9-5LA) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.4.8 LTR Madeira Portable](https://mega.nz/#!dQBBzabA!NW76-W72lA7hCwvK9HDukHIWw_A1pOdjXvTdxOeAGLU) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
