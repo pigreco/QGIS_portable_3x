@@ -16,7 +16,9 @@ per installarlo in linux:
 
 set -x
 # variabile con nome versione
-versione=QGIS-OSGeo4W-3.4.9-1-Setup-x86_64
+versione="QGIS-OSGeo4W-3.4.9-1-Setup-x86_64"
+# variabile con mome versione finale
+nome=$(sed -r 's/(QGIS-)(.+)(-Setup-x86_64.exe)/\2/g' <<<"$versione")
 # scarico il file eseguibile
 curl http://download.osgeo.org/qgis/win64/"$versione".exe >"$versione".exe
 # unzippo il file eseguibile
@@ -45,7 +47,7 @@ rm win64.zip
 # creo unica cartella zippata, adeguare i numeri finali
 # non eseguire questo passo se volete avviare QGIS da questa posizione
 cd ../../../../
-7z a OSGeo4W_349.7z OSGeo4W
+7z a "$nome".7z OSGeo4W
 ```
 
 **gif animata:**
