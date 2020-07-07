@@ -1,8 +1,8 @@
 <!-- TOC -->
 
 - [QGIS portable 3.x](#qgis-portable-3x)
-  - [Perché questo repository](#perch%c3%a9-questo-repository)
-  - [Che cosa è una versione Portable](#che-cosa-%c3%a8-una-versione-portable)
+  - [Perché questo repository](#perché-questo-repository)
+  - [Che cosa è una versione Portable](#che-cosa-è-una-versione-portable)
   - [Step by step metodo manuale](#step-by-step-metodo-manuale)
   - [Step by step usando script Bash](#step-by-step-usando-script-bash)
   - [Connessione al Web e i Plugin](#connessione-al-web-e-i-plugin)
@@ -82,8 +82,9 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 
 ## Portable (7z)
 
+- [QGIS 3.14.0-1 A Coruña Portable](https://mega.nz/file/kJxAySYI#zh-lNt0VGCmCJBkSgYGWFZTEVOF7kNon6Lg6-A5ci7E) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.12.2-1 A Coruña Portable](https://mega.nz/file/pZZgAaLS#jeW77H4QWXdWthPU-tACoU1o30vcZKZ6CehXtPFkYxM) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
-- [QGIS 3.10.5-1 A Coruña Portable](https://mega.nz/file/QcwkDCBJ#0bpC4P0dx4euAirNnjUJR34h3ZOUbIXLVDyP_UFVvxY) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
+- [QGIS 3.10.5-1 LTR A Coruña Portable](https://mega.nz/file/QcwkDCBJ#0bpC4P0dx4euAirNnjUJR34h3ZOUbIXLVDyP_UFVvxY) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.10.2-2 A Coruña Portable](https://mega.nz/#!hFpGgSqY!ortl0wgzflbQ_-HxrhK4uwu-T7tX5iu1FuwiXp0UQEM) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.8.3-1 Zanzibar Portable](https://mega.nz/#!xNoUDSKZ!j3yRI0DOGI6AtP_NdqLLsIDSXYX0dbXcaLsoIOcHHFQ) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.6.3-1 Noosa Portable](https://mega.nz/#!kEACTIiI!9oP4cFzBmb8CmuHsHb7v_y1sxy7kYFpq72GxjCcC3_g) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
