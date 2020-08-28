@@ -42,7 +42,7 @@ Un’applicazione portabile può indistintamente essere eseguita su qualsiasi co
 7. Cercare e copiare i file `msvcp100.dll` `msvcr100.dll` nella cartella `c:\windows\syswow64` (nel caso `c:\windows\system32`) e incollarli nella cartella `F:\OSGeo4W\apps\qgis\bin\`
 8. Lanciare `F:\OSGeo4W\bin\qgis-ltr.bat` e magicamente si avvierà **QGIS!!!** (in questo caso QGIS 3.4.8 LTR)
 
-<p align="center"> <a href="" target="_blank"><img src="./imgs/splash_3_4_0.png" width="500" title="pen drive"></a>
+<p align="center"> <a href="" target="_blank"><img src="./imgs/splash_3_14_0.png" width="500" title="splash"></a>
 </p>
 
 Nella pen drive: (quelli evidenziato non servono più)
