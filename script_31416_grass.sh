@@ -36,4 +36,4 @@ rm *.exe
 # cambio cartella
 cd ../../../../../
 # creo unica cartella zippata, adeguare i numeri finali
-# 7z a OSGeo4W64_314162_grass78.7z OSGeo4W
+7z a OSGeo4W64_314162_grass78.7z OSGeo4W
