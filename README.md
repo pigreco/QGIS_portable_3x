@@ -7,6 +7,8 @@
   - [Step by step usando script Bash](#step-by-step-usando-script-bash)
   - [Connessione al Web e i Plugin](#connessione-al-web-e-i-plugin)
   - [Portable (7z)](#portable-7z)
+    - [Con GRASS GIS 7.8](#con-grass-gis-78)
+    - [GRASS GIS non abilitato](#grass-gis-non-abilitato)
 
 <!-- /TOC -->
 # QGIS portable 3.x
@@ -81,6 +83,14 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 
 
 ## Portable (7z)
+
+### Con GRASS GIS 7.8
+
+- [QGIS 3.14.16-2 Pi Portable](https://drive.google.com/file/d/1PYClM7R6Ig825XwchpdgtAQ7-yc5M0Jg/view?usp=sharing) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
+
+Unzippare, per avviare QGIS: doppio clic su `qgis-grass.bat` 
+
+### GRASS GIS non abilitato
 
 - [QGIS 3.14.15-1 Pi Portable](https://mega.nz/file/FYRD3IJT#ebhWN_rfzHS2K9Q_rkgtxJsGwyjQgW5qVe3MrM58eCA) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.14.0-1 Pi Portable](https://mega.nz/file/kJxAySYI#zh-lNt0VGCmCJBkSgYGWFZTEVOF7kNon6Lg6-A5ci7E) (da unzippare in una pen drive `F:\OSGeo4W` e eseguire punto 8)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
