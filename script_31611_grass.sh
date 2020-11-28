@@ -4,7 +4,7 @@
 
 set -x
 # variabile con nome versione
-versione=QGIS-OSGeo4W-3.16.0-1-Setup-x86_64
+versione=QGIS-OSGeo4W-3.16.1-1-Setup-x86_64
 # scarico il file eseguibile
 curl http://download.osgeo.org/qgis/win64/"$versione".exe >"$versione".exe
 # unzippo il file eseguibile
@@ -34,6 +34,6 @@ rm win64.zip
 cd ../../../../
 rm *.exe
 # cambio cartella
-cd ../../../../../
+cd ..
 # creo unica cartella zippata, adeguare i numeri finali
-7z a OSGeo4W64_31601_grass78.7z OSGeo4W
+7z a OSGeo4W64_31611_grass78.7z OSGeo4W

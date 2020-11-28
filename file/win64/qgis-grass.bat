@@ -11,8 +11,3 @@ REM add a new path to the system path
 path %PATH%;%OSGEO4W_ROOT%\apps\qgis\bin;%OSGEO4W_ROOT%\apps;%OSGEO4W_ROOT%\bin;%OSGEO4W_ROOT%\apps\grass
 REM if the bat file find one argument (project name), open it. Else open a Qgis program with a new empty project
 IF "%1" == "" (start "QGIS" /B %OSGEO4W_ROOT%\bin\qgis.bat --profiles-path %DRV_LTR%\qgisconfig) ELSE (start "QGIS" /B %OSGEO4W_ROOT%\bin\qgis.bat --profiles-path %DRV_LTR%\qgisconfig --project %1)
-
-REM usare le righe di sotto se trattasi di LTR, togliere REM iniziale e metterlo nelle righe 11 e 13
-REM path %PATH%;%OSGEO4W_ROOT%\apps\qgis-ltr\bin;%OSGEO4W_ROOT%\apps;%OSGEO4W_ROOT%\bin;%OSGEO4W_ROOT%\apps\grass
-REM if the bat file find one argument (project name), open it. Else open a Qgis program with a new empty project
-REM IF "%1" == "" (start "QGIS" /B %OSGEO4W_ROOT%\bin\qgis-ltr.bat --profiles-path %DRV_LTR%\qgisconfig) ELSE (start "QGIS" /B %OSGEO4W_ROOT%\bin\qgis-ltr.bat --profiles-path %DRV_LTR%\qgisconfig --project %1)

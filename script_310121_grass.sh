@@ -4,7 +4,7 @@
 
 set -x
 # variabile con nome versione
-versione=QGIS-OSGeo4W-3.16.0-1-Setup-x86_64
+versione=QGIS-OSGeo4W-3.10.12-1-Setup-x86_64
 # scarico il file eseguibile
 curl http://download.osgeo.org/qgis/win64/"$versione".exe >"$versione".exe
 # unzippo il file eseguibile
@@ -14,16 +14,16 @@ mv '$_25_' qgis
 # sposto la cartella
 mv '$PLUGINSDIR' qgis
 # scarico file qgis-grass.bat
-curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/qgis-grass.bat" >qgis-grass.bat
+curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/qgis-ltr-grass.bat" >qgis-ltr-grass.bat
 #cambio cartella
 cd qgis/bin
 # scarico file qgis.bat e py3_env.bat
-curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/qgis.bat" >qgis.bat
+# curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/qgis.bat" >qgis.bat
 curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/py3_env.bat" >py3_env.bat
 # nel caso sia una LTR
-# curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/qgis-ltr.bat" >qgis-ltr.bat
-# cambio cartella caso non LTR
-cd ../apps/qgis/bin
+curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/qgis-ltr.bat" >qgis-ltr.bat
+# cambio cartella
+cd ../apps/qgis-ltr/bin
 # scarico cartella zippata
 curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/win64.zip" >win64.zip
 # unzippo cartella
@@ -34,6 +34,6 @@ rm win64.zip
 cd ../../../../
 rm *.exe
 # cambio cartella
-cd ../../../../../
+cd ..
 # creo unica cartella zippata, adeguare i numeri finali
-7z a OSGeo4W64_31601_grass78.7z OSGeo4W
+7z a OSGeo4W64_310121-ltr_grass78.7z OSGeo4W
