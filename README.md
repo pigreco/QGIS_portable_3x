@@ -7,6 +7,7 @@
   - [Step by step usando script Bash](#step-by-step-usando-script-bash)
   - [Connessione al Web e i Plugin](#connessione-al-web-e-i-plugin)
   - [Portable (7z)](#portable-7z)
+    - [Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 bit](#con-grass-gis-78-saga-gis-782-spatialite-5-pdal-22---solo-per-win-10-64-bit)
     - [Con GRASS GIS 7.8](#con-grass-gis-78)
     - [GRASS GIS non abilitato](#grass-gis-non-abilitato)
 
@@ -83,6 +84,10 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 
 
 ## Portable (7z)
+
+### Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 bit
+
+- [QGIS 3.18.2-1 Zürich Portable](https://drive.google.com/file/d/1C04vJNz43dMaVAua3yT_u7e4UasFmLgx/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W_31821-testing`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 
 ### Con GRASS GIS 7.8
 
