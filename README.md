@@ -87,7 +87,7 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 
 ### Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 bit
 
-<p align="center"> <a href="" target="_blank"><img src="./imgs/info_osgeo4w_testing.png" width="500" title="info"></a>
+<p align="center"> <a href="" target="_blank"><img src="./imgs/info_osgeo4w_testing.png" width="700" title="info"></a>
 </p>
 
 - [QGIS 3.18.2-1 Zürich Portable](https://drive.google.com/file/d/1C04vJNz43dMaVAua3yT_u7e4UasFmLgx/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W_31821-testing`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
