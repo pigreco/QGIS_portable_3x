@@ -98,6 +98,7 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 
 ### Con GRASS GIS 7.8
 
+- [QGIS 3.16.12-1 Hannover Portable Grass 7.8.5 LTR](https://drive.google.com/file/d/1-2KVy3j0WzOVQ2u2mxybSUgOUADPFqSx/view?usp=sharing) (da unzippare in una pen drive `F:\OSGeo4W`, doppio clic su `qgis-grass.bat`)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.16.11-1 Hannover Portable Grass 7.8.5 LTR](https://drive.google.com/file/d/1-1We95MgGXEzIyEoRVe4YA1K3SjlygU6/view?usp=sharing) (da unzippare in una pen drive `F:\OSGeo4W`, doppio clic su `qgis-grass.bat`)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.16.10-1 Hannover Portable Grass 7.8.5 LTR](https://drive.google.com/file/d/1XXnPxAXnWunDOS0tZ3YR9L83quORmEpK/view?usp=sharing) (da unzippare in una pen drive `F:\OSGeo4W`, doppio clic su `qgis-grass.bat`)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
 - [QGIS 3.16.9-1 Hannover Portable Grass 7.8.5 LTR](https://drive.google.com/file/d/1AXUHhw3Py-JTAxqcGayhA1NIxP8dnwZA/view?usp=sharing) (da unzippare in una pen drive `F:\OSGeo4W`, doppio clic su `qgis-grass.bat`)(al primo avvio potrebbe non funzionare, quindi tentare almeno due volte... ci stiamo lavorando per risolvere il bug!)
