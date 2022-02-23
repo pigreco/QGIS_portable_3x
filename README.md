@@ -1,3 +1,5 @@
+NOTA: A partire da QGIS 3.24 Tisler, gli eseguibili sono solo in formato `*.msi` e pesano circa 3 volte le vecchie `*.exe` perché contengono molti dati in più.
+
 <!-- TOC -->
 
 - [QGIS portable 3.x](#qgis-portable-3x)
