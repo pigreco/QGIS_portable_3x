@@ -27,7 +27,7 @@ cd ../../../../../../
 -- in contruzione --
 
 # rinominare tutti i file `*.py.tmpl` togliendo `.tmpl`
-mv *.py.tmpl *.py
+find -iname \*.py.tmpl | rename -v "s/py.tmpl/py/g"
 # cambio cartella
 cd ..
 # crea unica cartella zippata
