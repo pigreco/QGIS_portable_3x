@@ -21,11 +21,11 @@ cd qgis/apps/qgis-ltr/python/plugins/sagaprovider
 mv SagaAlgorithmProvider.py.tmpl SagaAlgorithmProvider.py
 # modificare la riga 43 del file
 sed -i "s/@saga@/'7.8.2'/" SagaAlgorithmProvider.py
-# cambia cartella
+# cambia cartella e ritorna dentro OSGeo4W64
 cd ../../../../../../
 # rinominare tutti i file `*.py.tmpl` togliendo `.tmpl`
 find -iname \*.py.tmpl | rename -v "s/py.tmpl/py/g"
-# cambio cartella
+# cambia cartella
 cd ..
 # crea unica cartella zippata
 7z a OSGeo4W64_"$nr"-ltr_grass-saga.7z OSGeo4W64
