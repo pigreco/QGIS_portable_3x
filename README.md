@@ -10,6 +10,8 @@ NOTA: A partire da QGIS 3.24 Tisler, gli eseguibili sono solo in formato `*.msi`
   - [Connessione al Web e i Plugin](#connessione-al-web-e-i-plugin)
   - [Portable (7z)](#portable-7z)
     - [Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 bit](#con-grass-gis-78-saga-gis-782-spatialite-5-pdal-22---solo-per-win-10-64-bit)
+  - [QGIS LTR - NUOVO REPOSITORY OSGeo4W64 v2 (CON GRASS 7.8.7 E SAGA 7.8.2)](#qgis-ltr---nuovo-repository-osgeo4w64-v2-con-grass-787-e-saga-782)
+  - [VECCHIO REPOSITORY](#vecchio-repository)
     - [Con GRASS GIS 7.8](#con-grass-gis-78)
     - [GRASS GIS non abilitato](#grass-gis-non-abilitato)
 
@@ -93,7 +95,11 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 <p align="center"> <a href="" target="_blank"><img src="./imgs/info_osgeo4w_testing.png" width="700" title="info QGIS 3.18 Zürich"></a>
 </p>
 
-- [QGIS 3.20.1-2 Odense Portable](in lavorazione) (da unzippare in una pen drive (o dove preferite) `F:\QGIS-OSGeo4W-3.20.1-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+## QGIS LTR - NUOVO REPOSITORY OSGeo4W64 v2 (CON GRASS 7.8.7 E SAGA 7.8.2)
+- [QGIS 3.22.6-1 Białowieża Portable](https://drive.google.com/file/d/1-AnZx7TxvP4JZr0er816Ex8ErbavLX1i/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\QGIS-OSGeo4W-3.20.1-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+
+## VECCHIO REPOSITORY
+
 - **QGIS 3.20.1-1 Odense Portable** (grave bug, uso sconsigliato)
 - [QGIS 3.20.0-4 RC Odense Portable](https://drive.google.com/file/d/15QNiABWFlBfvxoGAFxJqUThT25Kenwqe/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\QGIS-OSGeo4W-3.20.0-4`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - [QGIS 3.18.2-1 Zürich Portable](https://drive.google.com/file/d/1C04vJNz43dMaVAua3yT_u7e4UasFmLgx/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W_31821-testing`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute) [Grazie per l'aiuto a [Andrea Giudiceandrea](https://github.com/agiudiceandrea)]
