@@ -8,10 +8,10 @@ NOTA: A partire da QGIS 3.24 Tisler, gli eseguibili sono solo in formato `*.msi`
   - [Step by step metodo manuale](#step-by-step-metodo-manuale)
   - [Step by step usando script Bash](#step-by-step-usando-script-bash)
   - [Connessione al Web e i Plugin](#connessione-al-web-e-i-plugin)
-  - [Portable (7z)](#portable-7z)
-    - [Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 bit](#con-grass-gis-78-saga-gis-782-spatialite-5-pdal-22---solo-per-win-10-64-bit)
-  - [QGIS LTR - NUOVO REPOSITORY OSGeo4W64 v2 (CON GRASS 7.8.7 E SAGA 7.8.2)](#qgis-ltr---nuovo-repository-osgeo4w64-v2-con-grass-787-e-saga-782)
-  - [VECCHIO REPOSITORY](#vecchio-repository)
+- [Portable (7z)](#portable-7z)
+  - [OSGeo4W64 v2 - Nuovo Repository](#osgeo4w64-v2---nuovo-repository)
+    - [QGIS LTR](#qgis-ltr)
+  - [VECCHIO REPOSITORY OSGeo4W64 v1](#vecchio-repository-osgeo4w64-v1)
     - [Con GRASS GIS 7.8](#con-grass-gis-78)
     - [GRASS GIS non abilitato](#grass-gis-non-abilitato)
 
@@ -87,18 +87,22 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 - Blog post su [Pigrecoinfinito](https://pigrecoinfinito.wordpress.com/2019/02/26/creare-una-versione-portable-di-qgis-2-18-ltr/)
 
 
-## Portable (7z)
+# Portable (7z)
 
-### Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 bit
+## OSGeo4W64 v2 - Nuovo Repository
+Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 bit
 
 <p align="center"> <a href="" target="_blank"><img src="./imgs/info_qgis320RC.png" width="700" title="info QGIS 3.20 RC Odense"></a>
 <p align="center"> <a href="" target="_blank"><img src="./imgs/info_osgeo4w_testing.png" width="700" title="info QGIS 3.18 Zürich"></a>
 </p>
 
-## QGIS LTR - NUOVO REPOSITORY OSGeo4W64 v2 (CON GRASS 7.8.7 E SAGA 7.8.2)
+### QGIS LTR 
+
+CON GRASS 7.8.7 E SAGA 7.8.2
+
 - [QGIS 3.22.6-1 Białowieża Portable](https://drive.google.com/file/d/1-AnZx7TxvP4JZr0er816Ex8ErbavLX1i/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\QGIS-OSGeo4W-3.20.1-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 
-## VECCHIO REPOSITORY
+## VECCHIO REPOSITORY OSGeo4W64 v1
 
 - **QGIS 3.20.1-1 Odense Portable** (grave bug, uso sconsigliato)
 - [QGIS 3.20.0-4 RC Odense Portable](https://drive.google.com/file/d/15QNiABWFlBfvxoGAFxJqUThT25Kenwqe/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\QGIS-OSGeo4W-3.20.0-4`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
