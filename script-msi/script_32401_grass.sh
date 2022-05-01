@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# crea una cartella OSGeo4W e lavora da qui
+# crea una cartella OSGeo4W64 e lavora da qui
 
 set -x
-# variabile con nome file
+# variabile con nome file: da qui http://download.osgeo.org/qgis/win64/
 nomefile="QGIS-OSGeo4W-3.22.6-1"
-# estrae numero versione
-nr=`echo "$nomefile" | sed s/QGIS-OSGeo4W-// | sed -E s/-1$//`
+# estrae numero versione: 3.xx.x
+nr=`echo "$nomefile" | sed s/QGIS-OSGeo4W-// | sed -E s/-.$//`
 # scarica il file eseguibile
 curl http://download.osgeo.org/qgis/win64/"$nomefile".msi >"$nomefile".msi
 # unzippa il file eseguibile msi
@@ -23,12 +23,9 @@ mv SagaAlgorithmProvider.py.tmpl SagaAlgorithmProvider.py
 sed -i "s/@saga@/'7.8.2'/" SagaAlgorithmProvider.py
 # cambia cartella
 cd ../../../../../../
-
--- in contruzione --
-
 # rinominare tutti i file `*.py.tmpl` togliendo `.tmpl`
 find -iname \*.py.tmpl | rename -v "s/py.tmpl/py/g"
 # cambio cartella
 cd ..
 # crea unica cartella zippata
-7z a OSGeo4W64_"$nr"-ltr_grass-saga.7z OSGeo4W
+7z a OSGeo4W64_"$nr"-ltr_grass-saga.7z OSGeo4W64
