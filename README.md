@@ -92,10 +92,6 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 ## OSGeo4W64 v2 - Nuovo Repository
 Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 bit
 
-<p align="center"> <a href="" target="_blank"><img src="./imgs/info_qgis320RC.png" width="700" title="info QGIS 3.20 RC Odense"></a>
-<p align="center"> <a href="" target="_blank"><img src="./imgs/info_osgeo4w_testing.png" width="700" title="info QGIS 3.18 Zürich"></a>
-</p>
-
 ### QGIS LTR 
 
 CON GRASS 7.8.7 E SAGA 7.8.2
@@ -103,6 +99,10 @@ CON GRASS 7.8.7 E SAGA 7.8.2
 - [QGIS 3.22.6-1 Białowieża Portable](https://drive.google.com/file/d/1-AnZx7TxvP4JZr0er816Ex8ErbavLX1i/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\QGIS-OSGeo4W-3.20.1-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 
 ## VECCHIO REPOSITORY OSGeo4W64 v1
+
+<p align="center"> <a href="" target="_blank"><img src="./imgs/info_qgis320RC.png" width="700" title="info QGIS 3.20 RC Odense"></a>
+<p align="center"> <a href="" target="_blank"><img src="./imgs/info_osgeo4w_testing.png" width="700" title="info QGIS 3.18 Zürich"></a>
+</p>
 
 - **QGIS 3.20.1-1 Odense Portable** (grave bug, uso sconsigliato)
 - [QGIS 3.20.0-4 RC Odense Portable](https://drive.google.com/file/d/15QNiABWFlBfvxoGAFxJqUThT25Kenwqe/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\QGIS-OSGeo4W-3.20.0-4`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
