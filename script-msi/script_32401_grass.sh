@@ -21,7 +21,7 @@ cd qgis/apps/qgis-ltr/python/plugins/sagaprovider
 mv SagaAlgorithmProvider.py.tmpl SagaAlgorithmProvider.py
 # modificare la riga 43 del file
 sed -i "s/@saga@/'7.8.2'/" SagaAlgorithmProvider.py
-# cambio cartella
+# cambia cartella
 cd ../../../../../../
 
 -- in contruzione --
@@ -30,5 +30,5 @@ cd ../../../../../../
 mv *.py.tmpl *.py
 # cambio cartella
 cd ..
-# creo unica cartella zippata, adeguare i numeri finali
-7z a OSGeo4W64_$nr-ltr_grass-saga.7z OSGeo4W
+# crea unica cartella zippata
+7z a OSGeo4W64_"$nr"-ltr_grass-saga.7z OSGeo4W
