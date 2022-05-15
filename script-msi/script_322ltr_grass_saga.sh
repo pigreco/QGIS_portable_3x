@@ -4,7 +4,7 @@
 
 set -x
 # variabile con nome file: da qui http://download.osgeo.org/qgis/win64/
-nomefile="QGIS-OSGeo4W-3.22.6-1"
+nomefile="QGIS-OSGeo4W-3.22.7-1"
 # estrae numero versione: 3.xx.x
 nr=`echo "$nomefile" | sed s/QGIS-OSGeo4W-// | sed -E s/-.$//`
 # scarica il file eseguibile
@@ -25,6 +25,9 @@ sed -i "s/@saga@/'7.8.2'/" SagaAlgorithmProvider.py
 cd ../../../../../../
 # rinominare tutti i file `*.py.tmpl` togliendo `.tmpl`
 find -iname \*.py.tmpl | rename -v "s/py.tmpl/py/g"
+# elimina file non necessari
+rm *.msi
+rm *.sh
 # cambia cartella
 cd ..
 # crea unica cartella zippata
