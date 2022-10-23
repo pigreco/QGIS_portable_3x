@@ -93,7 +93,7 @@ Per quanto riguarda i **plugin**: è possibile installarli, ma verrà creata una
 ## OSGeo4W64 v2 - Nuovo Repository
 Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 bit
 
-<p align="center"> <a href="" target="_blank"><img src="./imgs/info_qgis322ltr.png" width="700" title="info QGIS 3.22 LTR Białowieża"></a>
+<p align="center"> <a href="" target="_blank"><img src="./imgs/qgis3280.png" width="700" title="info QGIS 3.22 LTR Białowieża"></a>
 
 ### QGIS 
 
