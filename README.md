@@ -97,7 +97,14 @@ Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 b
 
 ### QGIS 
 
-CON GRASS 7.8.7 E SAGA 7.8.2
+**CON GRASS 7.8.7** 
+
+(non c'è più SAGA GIS nel core di >= QGIS 3.30, vedi Plugin [Processing Saga NextGen Provider](https://plugins.qgis.org/plugins/processing_saga_nextgen/))
+
+- ⭐⭐[QGIS 3.30.0-2 s-Hertogenbosch Portable](https://drive.google.com/file/d/10O7QwyQDNTRSUqYoFsi0IzHTsowACVP1/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+
+**CON GRASS 7.8.7 E SAGA 7.8.2**
+
 
 - ⭐⭐[QGIS 3.28.3-1 Firenze Portable](https://drive.google.com/file/d/1034lGd09ZUnw1yHKsYmQyMMSC0G7G3nv/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.2-1 Firenze Portable](https://drive.google.com/file/d/10-RPw5Q6IKVM8kner5jhV5x-XOXgLI9q/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
@@ -109,6 +116,7 @@ CON GRASS 7.8.7 E SAGA 7.8.2
 
 CON GRASS 7.8.7 E SAGA 7.8.2
 
+- ⭐⭐[QGIS 3.28.4-3 Firenze Portable](https://drive.google.com/file/d/108H_q4-pM40DMQB6cgUNxO2EfUkzn-Ws/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐⭐[QGIS 3.22.16-1 Białowieża Portable EOL](https://drive.google.com/file/d/103EBACERFZXL4IoNg3d0Q0FBaCu5sAcN/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.22.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐⭐[QGIS 3.22.15-1 Białowieża Portable EOL](https://drive.google.com/file/d/102IhVQRwTNu5T6d3Jv5Et_fZVBqyl6p1/view?usp=sharing) (**[HA UN grave BUG CONOSCIUTO](https://github.com/qgis/QGIS/pull/51703)**!!!) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.22.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.22.14-1 Białowieża Portable](https://drive.google.com/file/d/1-zzvZ5PjkBV4cTi1xXVYAMvfrfP8GeNC/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.22.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
