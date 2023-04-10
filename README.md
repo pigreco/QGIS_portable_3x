@@ -1,4 +1,5 @@
 NOTA: A partire da QGIS 3.24 Tisler, gli eseguibili sono solo in formato `*.msi` e pesano circa 3 volte le vecchie `*.exe` perché contengono molti dati in più.
+NOTA2: Il Plugin core **Geometry Checker** ha due [bug segnalati](https://lists.osgeo.org/pipermail/qgis-it-user/2023-April/010258.html) e risolti a partire da QGIS 3.28.6 e  QGIS 3.30.2
 
 <!-- TOC -->
 
@@ -101,7 +102,7 @@ Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 b
 
 (non c'è più SAGA GIS nel core di >= QGIS 3.30, vedi Plugin [Processing Saga NextGen Provider](https://plugins.qgis.org/plugins/processing_saga_nextgen/))
 
-- ⭐⭐[QGIS 3.30.1-1 s-Hertogenbosch Portable]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.30.1-1 s-Hertogenbosch Portable](https://drive.google.com/file/d/10YPBlnUX1gMES7BD7H3PIjhTVLj7T1KZ/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.30.0-2 s-Hertogenbosch Portable](https://drive.google.com/file/d/10O7QwyQDNTRSUqYoFsi0IzHTsowACVP1/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 
 **CON GRASS 7.8.7 E SAGA 7.8.2**
