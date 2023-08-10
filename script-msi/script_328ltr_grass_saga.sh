@@ -4,7 +4,7 @@
 
 set -x
 # variabile con nome file: da qui http://download.osgeo.org/qgis/win64/
-nomefile="QGIS-OSGeo4W-3.28.6-1"
+nomefile="QGIS-OSGeo4W-3.28.9-1"
 # estrae numero versione: 3.xx.x
 nr=`echo "$nomefile" | sed s/QGIS-OSGeo4W-// | sed -E s/-.$//`
 # scarica il file eseguibile
