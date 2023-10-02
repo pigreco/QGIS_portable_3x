@@ -109,6 +109,7 @@ Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 b
 **CON GRASS 7.8.7 E SAGA 7.8.2**
 
 - ⭐⭐[QGIS 3.28.3-1 Firenze Portable](https://drive.google.com/file/d/1034lGd09ZUnw1yHKsYmQyMMSC0G7G3nv/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.28.3-1 Firenze Portable](https://drive.google.com/file/d/1034lGd09ZUnw1yHKsYmQyMMSC0G7G3nv/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.2-1 Firenze Portable](https://drive.google.com/file/d/10-RPw5Q6IKVM8kner5jhV5x-XOXgLI9q/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.1-1 Firenze Portable](https://drive.google.com/file/d/1-vWfIvJfiOYtzKcbJGaG1-6UiVBVKzj8/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - [QGIS 3.28.0-2 RC Firenze Portable](https://drive.google.com/file/d/1-t9mXTkRhDuM40lp5rInsU04JC42EfvT/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.0-2`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
@@ -118,6 +119,8 @@ Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 b
 
 CON GRASS 7.8.7 E SAGA 7.8.2
 
+- ⭐⭐[QGIS 3.28.11-1 Firenze Portable](https://drive.google.com/file/d/10ikds5VRD1IMywpSbs30ynzlPWAPeSUo/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.28.10-1 Firenze Portable](https://drive.google.com/file/d/10ieK_lZZqrrVkN6C6MyLWEIKVunr2Ddg/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.10-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.9-1 Firenze Portable](https://drive.google.com/file/d/10hQl4A-fay5q1KoUIgWajI0p0R_Pql8I/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.9-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.8-1 Firenze Portable](https://drive.google.com/file/d/10cyNXm7ofD-hCElJUvyXQ6IJ3X3MI0hF/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.8-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.7-1 Firenze Portable](https://drive.google.com/file/d/10_GOW7lmocB8VYuEwHfr3rKzr-LTlizy/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.7-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
