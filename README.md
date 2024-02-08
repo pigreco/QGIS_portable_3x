@@ -119,6 +119,10 @@ Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 b
 
 CON GRASS 7.8.7 E SAGA 7.8.2
 
+- ⭐⭐[QGIS 3.28.15-1 Firenze Portable - ULTIMA](https://drive.google.com/file/d/10jJlPF-LBruvVXCACBkg9ni0khVq9scr/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.28.14-1 Firenze Portable - in lavorazione]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.28.13-1 Firenze Portable - in lavorazione]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.28.12-1 Firenze Portable - in lavorazione]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.11-1 Firenze Portable](https://drive.google.com/file/d/10ikds5VRD1IMywpSbs30ynzlPWAPeSUo/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.10-1 Firenze Portable](https://drive.google.com/file/d/10ieK_lZZqrrVkN6C6MyLWEIKVunr2Ddg/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.10-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.9-1 Firenze Portable](https://drive.google.com/file/d/10hQl4A-fay5q1KoUIgWajI0p0R_Pql8I/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.9-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
