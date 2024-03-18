@@ -119,14 +119,14 @@ Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 b
 
 CON GRASS 8.3.1
 
-- [QGIS 3.34.4-1 Prizren Portable](https://drive.google.com/file/d/11OsbJSGTju9w76NpuXTJ5yhBwB3T3zEn/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- 🙊[QGIS 3.34.4-1 Prizren Portable](https://drive.google.com/file/d/11OsbJSGTju9w76NpuXTJ5yhBwB3T3zEn/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.34.4-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 
 CON GRASS 7.8.7 E SAGA 7.8.2
 
-- ⭐⭐[QGIS 3.28.15-1 Firenze Portable - ULTIMA](https://drive.google.com/file/d/10jJlPF-LBruvVXCACBkg9ni0khVq9scr/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
-- ⭐⭐[QGIS 3.28.14-1 Firenze Portable - in lavorazione]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
-- ⭐⭐[QGIS 3.28.13-1 Firenze Portable - in lavorazione]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
-- ⭐⭐[QGIS 3.28.12-1 Firenze Portable - in lavorazione]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.28.15-1 Firenze Portable - ULTIMA](https://drive.google.com/file/d/10jJlPF-LBruvVXCACBkg9ni0khVq9scr/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.15-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.28.14-1 Firenze Portable - in lavorazione]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.14-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.28.13-1 Firenze Portable - in lavorazione]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.13-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- ⭐⭐[QGIS 3.28.12-1 Firenze Portable - in lavorazione]() (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.12-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.11-1 Firenze Portable](https://drive.google.com/file/d/10ikds5VRD1IMywpSbs30ynzlPWAPeSUo/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.11-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.10-1 Firenze Portable](https://drive.google.com/file/d/10ieK_lZZqrrVkN6C6MyLWEIKVunr2Ddg/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.10-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - ⭐⭐[QGIS 3.28.9-1 Firenze Portable](https://drive.google.com/file/d/10hQl4A-fay5q1KoUIgWajI0p0R_Pql8I/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.28.9-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
@@ -149,6 +149,7 @@ CON GRASS 7.8.7 E SAGA 7.8.2
 - [QGIS 3.22.6-1 Białowieża Portable](https://drive.google.com/file/d/1-AnZx7TxvP4JZr0er816Ex8ErbavLX1i/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.22.6-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)(bug noti: <https://github.com/qgis/QGIS/issues/48380>)
 
 **NB:**
+- 🙊: non funziona più in win7 [issue](https://github.com/qgis/QGIS/issues/56604)
 - ⭐⭐⭐: EOL, ultimo rialscio
 - ⭐⭐: occorre [rinominare](https://www.facebook.com/pigreco314/posts/pfbid02FAXfkezQXAU65SNzoX2Jq1nrn2jMeCz7w5jDktXbxG8in1ScJhCjL9x4aZsQ3yjml) il file `api-ms-win-core-path-l1-1-0.dll.w7` in `api-ms-win-core-path-l1-1-0.dll` (si trova nella cartella bin) per poterlo utilizzare in macchine che montano windows 7 64 b
 - ⭐: utilizzabile anche in macchine che montano windows 7 64 bit
