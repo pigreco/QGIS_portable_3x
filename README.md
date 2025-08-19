@@ -117,6 +117,10 @@ Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 b
 
 ### QGIS LTR
 
+**CON GRASS 8.4**
+
+- 🙊[QGIS 3.40.4-1 Bratislava Portable](https://drive.google.com/file/d/146tHnYtjdW1UN_vKpK6mF--JQymOQtlY/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.34.10-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+
 CON GRASS 8.3.x
 
 - 🙊[QGIS 3.34.14-1 Prizren Portable](https://drive.google.com/file/d/1KHkv0QtKzcn2QveFskm0ROaJPu5VkdTQ/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.34.10-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
