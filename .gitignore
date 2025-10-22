@@ -1,0 +1,9 @@
+# Ignore script-exe directory
+script-exe/
+
+# Common files to ignore
+*.log
+*.tmp
+*~
+.DS_Store
+Thumbs.db
