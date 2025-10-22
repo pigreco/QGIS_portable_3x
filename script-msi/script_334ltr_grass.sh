@@ -15,8 +15,8 @@ msiextract -C ./ "$nomefile".msi
 mv 'QGIS '"$nr" qgis
 # scarica file qgis-grass.bat
 curl -L "https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/qgis-ltr-grass.bat" >qgis-ltr-grass.bat
-# rinominare tutti i file `*.py.tmpl` togliendo `.tmpl`
-find -iname \*.py.tmpl | rename -v "s/py.tmpl/py/g"
+# rinominare tutti i file `*.py.tmpl` togliendo `.tmpl` per sagagis
+# find -iname \*.py.tmpl | rename -v "s/py.tmpl/py/g"
 # elimina file non necessari
 rm *.msi
 rm *.sh
