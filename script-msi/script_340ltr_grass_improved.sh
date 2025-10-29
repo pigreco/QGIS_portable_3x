@@ -8,7 +8,7 @@ set -e  # Esce in caso di errore
 set -x  # Debug mode
 
 # Configurazione
-nomefile="QGIS-OSGeo4W-3.34.1-1"
+nomefile="QGIS-OSGeo4W-3.40.12-1"
 base_url="http://download.osgeo.org/qgis/win64"
 github_bat_url="https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/qgis-ltr-grass.bat"
 
@@ -28,6 +28,16 @@ optimize_performance() {
     # Usa tutti i core disponibili per 7z
     export PROCESSORS=$(nproc 2>/dev/null || echo "4")
     log_info "Usando $PROCESSORS core per l'elaborazione"
+}
+
+# Funzione per testare la connettività
+test_connectivity() {
+    local url="$1"
+    log_info "Testando connettività verso $url..."
+    if ! curl -s --connect-timeout 10 --head "$url" > /dev/null; then
+        handle_error "Impossibile raggiungere $url. Controlla la connessione internet."
+    fi
+    log_info "Connettività OK"
 }
 
 # Ottimizza le performance
@@ -52,11 +62,31 @@ cd OSGeo4W64
 if [ -f "$nomefile.msi" ]; then
     log_info "File MSI già presente, salto download"
 else
+    # Testa la connettività prima del download
+    test_connectivity "$base_url"
+    
     # Scarica il file eseguibile MSI con ottimizzazioni
     log_info "Scaricando $nomefile.msi da $base_url..."
-    curl -f -L --progress-bar --parallel --parallel-max 8 --retry 3 --connect-timeout 10 \
-         "$base_url/$nomefile.msi" -o "$nomefile.msi" || handle_error "impossibile scaricare il file MSI"
-    log_info "Download completato"
+    
+    # Ottieni dimensione del file per stimare il tempo di download
+    file_size=$(curl -sI "$base_url/$nomefile.msi" | grep -i content-length | awk '{print $2}' | tr -d '\r')
+    if [ -n "$file_size" ]; then
+        file_size_mb=$((file_size / 1024 / 1024))
+        log_info "Dimensione file: ${file_size_mb}MB"
+    fi
+    
+    # Timeout più lungo e più retry per connessioni lente
+    if ! curl -f -L --progress-bar --retry 5 --retry-delay 2 --connect-timeout 30 --max-time 1800 \
+         "$base_url/$nomefile.msi" -o "$nomefile.msi"; then
+        handle_error "impossibile scaricare il file MSI da $base_url/$nomefile.msi"
+    fi
+    
+    # Verifica che il file sia stato scaricato correttamente
+    if [ ! -f "$nomefile.msi" ] || [ ! -s "$nomefile.msi" ]; then
+        handle_error "Il file MSI scaricato è vuoto o corrotto"
+    fi
+    
+    log_info "Download completato ($(du -h "$nomefile.msi" | cut -f1))"
 fi
 
 # Controlla se msiextract è disponibile
@@ -64,13 +94,27 @@ if ! command -v msiextract &> /dev/null; then
     handle_error "msiextract non è installato. Installa msitools: sudo apt install msitools"
 fi
 
-# Unzippa il file eseguibile msi con output ridotto
+# Unzippa il file eseguibile msi
 log_info "Estraendo il file MSI..."
-msiextract -C ./ "$nomefile.msi" > /dev/null 2>&1 || handle_error "impossibile estrarre il file MSI"
+if ! msiextract -C ./ "$nomefile.msi"; then
+    log_info "Errore durante l'estrazione, proviamo con opzioni alternative..."
+    # Prova con msiexec (se disponibile su Wine)
+    if command -v msiexec &> /dev/null; then
+        log_info "Tentativo con msiexec..."
+        msiexec /a "$nomefile.msi" /qn TARGETDIR="$(pwd)/extracted/" || handle_error "impossibile estrarre il file MSI"
+    else
+        handle_error "impossibile estrarre il file MSI con msiextract"
+    fi
+fi
+
+# Debug: mostra il contenuto della cartella corrente
+log_info "Contenuto cartella dopo estrazione:"
+ls -la | head -10
 
 # Controlla quale cartella è stata creata dall'estrazione
-extracted_folder=$(find . -maxdepth 1 -type d -name "QGIS*" | head -1)
+extracted_folder=$(find . -maxdepth 2 -type d -name "*QGIS*" -o -name "*qgis*" -o -name "*OSGeo*" | head -1)
 if [ -n "$extracted_folder" ]; then
+    log_info "Cartella trovata: $extracted_folder"
     # Rinomina la cartella estratta in 'qgis'
     if [ -d "qgis" ]; then
         rm -rf qgis
@@ -79,7 +123,20 @@ if [ -n "$extracted_folder" ]; then
     mv "$extracted_folder" qgis
     log_info "Cartella rinominata: '$extracted_folder' -> 'qgis'"
 else
-    handle_error "Nessuna cartella QGIS trovata dopo l'estrazione"
+    # Se non troviamo cartelle con nomi specifici, cerchiamo tutte le cartelle create
+    log_info "Nessuna cartella QGIS/OSGeo trovata. Cartelle disponibili:"
+    find . -maxdepth 2 -type d -not -path "." | head -10
+    
+    # Proviamo a cercare file .exe di QGIS per identificare la cartella corretta
+    qgis_exe=$(find . -name "*qgis*.exe" -o -name "*QGIS*.exe" | head -1)
+    if [ -n "$qgis_exe" ]; then
+        extracted_folder=$(dirname "$qgis_exe")
+        log_info "Trovato eseguibile QGIS in: $extracted_folder"
+        mv "$extracted_folder" qgis
+        log_info "Cartella rinominata: '$extracted_folder' -> 'qgis'"
+    else
+        handle_error "Nessuna cartella QGIS o eseguibile trovato dopo l'estrazione"
+    fi
 fi
 
 # Scarica file qgis-ltr-grass.bat in parallelo

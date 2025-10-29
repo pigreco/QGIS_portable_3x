@@ -119,11 +119,12 @@ Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 b
 
 **CON GRASS 8.4**
 
-- 🙊[QGIS 3.40.4-1 Bratislava Portable](https://drive.google.com/file/d/146tHnYtjdW1UN_vKpK6mF--JQymOQtlY/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.34.10-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- 🙊[QGIS 3.40.12-1 Bratislava Portable](https://drive.google.com/file/d/1YFFceV4WL-JMK3RzLuI_yAAk-j4CkUrE/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.40.12-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- 🙊[QGIS 3.40.4-1 Bratislava Portable](https://drive.google.com/file/d/146tHnYtjdW1UN_vKpK6mF--JQymOQtlY/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.40.04-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 
 CON GRASS 8.3.x
 
-- 🙊[QGIS 3.34.14-1 Prizren Portable](https://drive.google.com/file/d/1KHkv0QtKzcn2QveFskm0ROaJPu5VkdTQ/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.34.10-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- 🙊[QGIS 3.34.14-1 Prizren Portable](https://drive.google.com/file/d/1KHkv0QtKzcn2QveFskm0ROaJPu5VkdTQ/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.34.14-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - 🙊[QGIS 3.34.10-1 Prizren Portable](https://drive.google.com/file/d/16w_vMj1AlXA0ssiWUBgh19r8qBm_Q4LL/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.34.10-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - 🙊[QGIS 3.34.9-1 Prizren Portable](https://drive.google.com/file/d/1t40zDCy75ItXqU84ZBtCIK809em4pu53/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.34.9-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 - 🙊[QGIS 3.34.8-1 Prizren Portable](https://drive.google.com/file/d/12c_ptE5bzzu3D1HQjX8n8DR0TTOzWV12/view?usp=sharing) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.34.8-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
