@@ -120,7 +120,7 @@ Con GRASS GIS 7.8, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 - solo per win 10 64 b
 **CON GRASS 8.4**
 
 - 🙊[QGIS 3.40.12-1 Bratislava Portable](https://drive.google.com/file/d/1YFFceV4WL-JMK3RzLuI_yAAk-j4CkUrE/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.40.12-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
-- 🙊[QGIS 3.40.4-1 Bratislava Portable](https://drive.google.com/file/d/146tHnYtjdW1UN_vKpK6mF--JQymOQtlY/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.40.04-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
+- 🙊[QGIS 3.40.4-1 Bratislava Portable](https://drive.google.com/file/d/146tHnYtjdW1UN_vKpK6mF--JQymOQtlY/view?usp=drive_link) (da unzippare in una pen drive (o dove preferite) `F:\OSGeo4W64-3.40.4-1`, doppio clic su `qgis-grass.bat`)(è una prima versione da testare, ogni suggerimento o segnalazione sono benvenute)
 
 CON GRASS 8.3.x
 
