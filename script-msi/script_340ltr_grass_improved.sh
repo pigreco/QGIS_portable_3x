@@ -8,7 +8,7 @@ set -e  # Esce in caso di errore
 set -x  # Debug mode
 
 # Configurazione
-nomefile="QGIS-OSGeo4W-3.40.12-1"
+nomefile="QGIS-OSGeo4W-3.40.15-1"
 base_url="http://download.osgeo.org/qgis/win64"
 github_bat_url="https://github.com/pigreco/QGIS_portable_3x/raw/master/file/win64/qgis-ltr-grass.bat"
 
