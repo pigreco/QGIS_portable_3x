@@ -178,6 +178,7 @@ Con GRASS GIS 7.8+, SAGA GIS 7.8.2, SpatiaLite 5, PDAL 2.2 — solo per **Window
 
 | Versione | Download | Cartella estrazione | Info versione |
 |----------|----------|---------------------|----------------|
+| 🙊 QGIS 3.44.13-1 Solothurn | [Download](https://drive.google.com/file/d/1U_ogjbnqG9CO_HthzaJaCTI_-6MSXtFG/view?usp=sharing) | `OSGeo4W64-3.44.13-1` | |
 | 🙊 QGIS 3.44.8-1 Solothurn | [Download](https://drive.google.com/file/d/1IfnGgCOnZEr0kvNQdFZ1pABVXyOPQaqw/view?usp=drive_link) | `OSGeo4W64-3.44.8-1` |[Info](./info_versioni/QGIS_3448.md) |
 | 🙊 QGIS 3.40.15-1 Bratislava | [Download](https://drive.google.com/file/d/1w77oWg7KU2l1nmf7PJms2vdHVcITndqg/view?usp=drive_link) | `OSGeo4W64-3.40.12-1` | [Info](./info_versioni/QGIS_34015.md) |
 | 🙊 QGIS 3.40.12-1 Bratislava | [Download](https://drive.google.com/file/d/1YFFceV4WL-JMK3RzLuI_yAAk-j4CkUrE/view?usp=drive_link) | `OSGeo4W64-3.40.12-1` | |
